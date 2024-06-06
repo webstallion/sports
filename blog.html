@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tennis Ball</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+   <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+<body>
+<section id="header_main" class="clearfix">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+     <div class="header_main_1">
+       <ul>
+	        <li><i class="fa fa-phone"></i><a href="#">+123 456 78 90</a></li>
+			<li><i class="fa fa-envelope"></i><a href="#">info@gmail.com</a></li>
+	   </ul>
+     </div>
+    </div>
+    <div class="col-sm-3 space_all">
+     <div class="header_main_2">
+      <div id="custom-search-input">
+        <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+       </div>
+     </div>
+    </div>
+	<div class="col-sm-3">
+	 <div class="header_main_4">
+	  <ul class="nav navbar-nav navbar nav_2">			
+	  <div class="login">
+				<ul class="nav-login">
+					<li class="tell_main_8"><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
+					<li class="tell_main_9"><a href="#" data-toggle="modal" data-target="#myModal2">Signup</a></li>
+				</ul>
+			</div>
+	  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">
+							
+									<div class="login-right">
+										<form action="#" method="post">
+											<h3>Signin with your account </h3>
+											<input type="text" value="Enter your mobile number or Email" name=" Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your mobile number or Email';}" required="">	
+											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
+											<div class="single-bottom">
+												<input type="checkbox" id="brand" value="">
+												<label for="brand"><span></span>Remember Me.</label>
+											</div>
+											<input type="submit" value="SIGNIN">
+										</form>
+									</div>
+									
+								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //login -->
+			<!-- signup -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">							
+									<div class="login-right">
+										<form action="#" method="post">
+											<h3>Create your account </h3>
+											<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+											<input type="text" value="Mobile number" name="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+											<input type="text" value="Email id" name="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
+											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">												
+											<input type="submit" value="CREATE ACCOUNT">
+										</form>
+									</div>								
+								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </ul>
+	 </div>
+	</div>
+    <div class="col-sm-2 space_all">
+     <div class="header_main_3">
+      <ul>
+           <li><a href="#"><i class="fa fa-facbook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		   <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+		   <li><a href="#"><i class="fa fa-google"></i></a></li>
+		   <li><a href="#"><i class="fa fa-dribbble"></i></a></li>		   
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="header" class="cd-secondary-nav">
+ <div class="container">
+  <div class="row">
+   <nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="index.html"><span class="well_1"><i class="fa fa-dribbble"></i></span>TENNIS <span class="well_2">BALL</span></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html" class="hvr-underline-from-center">HOME</a></li>
+		<li><a href="about.html" class="hvr-underline-from-center">ABOUT</a></li>
+		<li><a href="team.html" class="hvr-underline-from-center">TEAM</a></li>
+		<li class="active">
+		<a href="team.html" class="hvr-wobble-to-top-right" data-toggle="dropdown">BLOG <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			 <li class="tell_1"><a href="blog.html">BLOG LISTING</a></li>
+			 <li class="tell_1"><a href="details.html">BLOG DETAILS</a></li>		 
+		  </ul>
+		</li>
+		<li><a href="contact.html" class="hvr-underline-from-center">CONTACT</a></li>
+        <li class="dropdown">
+		<a href="#" class="hvr-wobble-to-top-right" data-toggle="dropdown">DROPDOWN <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			 <li class="tell_1"><a href="blog.html">BLOG</a></li>
+			 <li class="tell_1"><a href="about.html">ABOUT</a></li>
+		     <li><a href="team.html">TEAM</a></li>			 
+		  </ul>
+		</li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+  </div>
+ </div>
+</section>
+<section id="blog_main">
+ <div class="container">
+  <div class="row">
+   <div class="blog_main_1">
+    <h2>Blog</h2>
+	<ul>
+	    <li><a href="details.html"><i class="fa fa-home"></i> Home </a></li>
+		<li><i class="fa fa-angle-double-right"></i></li>
+		<li>Blog</li>
+	</ul>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="blog">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/44.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Praesent mauris. Fusce nec tellus sed augue!</a></h3>
+	    <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>		
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+	<div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/45.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Fusce nec tellus sed augue semper porta.!</a></h3>
+	  <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+	<div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/46.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Dapibus diam. Sed. Nulla quis sem elementum!</a></h3>
+	  <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+   </div>
+   <div class="col-sm-12">
+    <div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/47.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Praesent mauris. Fusce nec tellus sed augue!</a></h3>
+	  <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+	<div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/48.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Cursus ante dapibus diam. Sed nisi.Nulla!</a></h3>
+	  <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+	<div class="col-sm-4">
+	 <div class="blog_4 clearfix">
+	   <div class="blog_1">
+	    <a href="details.html"><img src="img/49.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	 <div class="blog_2">
+	  <h3><a href="details.html">Sed cursus ante dapibus diam. Sed nisi!</a></h3>
+	  <ul>
+		    <li><i class="fa fa-calendar"></i>16 july</li>
+			<li><i class="fa fa-user"></i>elementum</li>
+			<li><i class="fa fa-comment"></i>40</li>
+		</ul>
+	  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. 
+		Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+	 </div>
+	 <div class="blog_3 clearfix">
+	  <div class="col-sm-5 space_all">
+	   <p><a href="details.html">Read more</a></p>
+	  </div>
+	  <div class="col-sm-7 space_all">
+	   <ul class="social-network social-circle">
+                        <li><a href="details.html" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="details.html" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="details.html" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="details.html" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="details.html" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+	  </div>	  
+	 </div>
+	 </div>	 
+	</div>
+   </div>
+   <div class="col-sm-12">
+    <div class="blog_5">
+	 <p><a href="details.html" class="button">LOAD MORE</a></p>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-4">
+	 <div class="footer_1">
+	  <h3>CONUBIA</h3>
+	  <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+         torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero. Sed dignissim lacinia nunc.!</p>
+	 </div>
+	 <div class="footer_2">
+	  <input type="text" class="form-control" placeholder="Enter your E-mail address">
+	  <p><a href="#">SUBSCRIBE</a></p>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	  <div class="footer_3">
+	     <h3>CURSUS ANTE AUGUE</h3>
+	  </div>
+	 <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/31.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Vestibulum Lacinia Arcu Eget Nulla!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>
+     <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/32.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Fusce Nec Tellus Sed Augue Semper!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>
+    <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/33.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Sed Augue Semper Porta. Mauris Massa!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>	 
+   </div>
+   <div class="col-sm-4">
+    <div class="footer_6">
+	 <h3>DIGNISSIM</h3>
+	</div>
+    <div class="col-sm-12 space_all">
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/34.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/35.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/36.jpg"></a></p>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-12 space_all">
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/37.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/38.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/39.jpg"></a></p>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+<section id="footer_main" class="clearfix">
+ <div class="col-sm-12">
+  <div class="col-sm-8">
+   <div class="footer_main_1">
+    <p>© 2013 Your Website Name. All Rights Reserved. Design by<a href="http://www.TemplateOnWeb.com"> Template On Web</a> </p>
+   </div>
+  </div>
+  <div class="col-sm-4">
+   <div class="footer_main_2">
+       <ul class="social-network social-circle">
+			<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+   </div>
+  </div>
+ </div>
+</section>
+<script>
+$(document).ready(function(){
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > secondaryNavTopPosition ) {
+				secondaryNav.addClass('is-fixed');	
+			} else {
+				secondaryNav.removeClass('is-fixed');
+			}
+		});	
+		
+});
+</script>
+</body>
+</html>

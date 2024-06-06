@@ -1,0 +1,224 @@
+/*
+Template Name:Tennis Ball
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* team_main ****************/
+#team_main{ 
+ background-image: url(../img/42.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.team_main_1{ 
+ background-color: #96bd479e;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ float: right;
+ }
+.team_main_1 h2{ 
+ color:#fff;
+ }
+.team_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.team_main_1 i{ 
+ color:#fff;
+ }
+.team_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* team_main_end ****************/
+/********************* our ****************/
+#our{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ background-color: #f1f1f1;
+ }
+.our_1{ 
+ text-align:center;
+ }
+.our_1 h2{ 
+ color: #1a3150;
+ padding-bottom:10px;
+ }
+.hr_3{ 
+ border-top: 1px solid #96bd42;
+ width: 4%;
+ margin-top:7px;
+ margin-bottom: 15px;
+ border-width: 2px;
+ }
+.our_1 p{ 
+ padding-bottom:30px;
+ }
+.our_4 ul{ 
+ padding-top:8px;
+ }
+.our_4 li{ 
+ display:inline;
+ margin:0px;
+ }
+.well_25{ 
+ background-color: #1a98d3;
+ color:#fff;
+ font-size:18px;
+ padding: 10px 22px 10px 22px;
+ }
+.well_26{ 
+ background-color: #021328;
+ color:#fff;
+ font-size:18px;
+ padding: 10px 23px 10px 23px;
+ }
+.well_27{ 
+ background-color: #cb281e;
+ color:#fff;
+ font-size:18px;
+ padding: 10px 22px 10px 23px;
+ }
+.our_5{ 
+ text-align:center;
+ background-color:#fff;
+ padding:10px;
+ margin-top: 12px;
+ }
+.our_5 h4{ 
+ padding-bottom:10px;
+ }
+.our_5 h4 a{ 
+ color: #1a3150;
+ }
+.our_5 h4 a:hover{ 
+ color: #96bd42;
+ }
+.our_5 h6{ 
+ padding-bottom:10px;
+ color: #96bd42;
+ letter-spacing:2px;
+ }
+.our_5 p{ 
+ padding:0px;
+ margin:0px;
+ }
+.our_3{ 
+ padding-bottom:30px;
+ }
+.our_6{ 
+ text-align:center;
+ }
+.our_6 p{ 
+ padding-top:30px!important;
+ }
+/********************* our_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#team_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.team_main_1 {
+ padding: 10px;
+ width: 100%;
+ float: none;
+}
+#our {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.our_6 p {
+ padding-top: 10px!important;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+#team_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.team_main_1 {
+ width: 55%;
+}
+.well_25 {
+ font-size: 16px;
+ padding: 10px 10px 10px 10px;
+}
+.well_26 {
+ font-size: 16px;
+ padding: 10px 13px 10px 13px;
+}
+.well_27 {
+ font-size: 16px;
+ padding: 10px 10px 10px 10px;
+}
+.our_5 h4 {
+ padding-bottom: 5px;
+ font-size: 19px;
+}
+.our_5 h6 {
+ padding-bottom: 0px;
+ letter-spacing: 1px;
+ font-size: 13px;
+}
+.our_5 p {
+ font-size: 15px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+#team_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.team_main_1 {
+ width: 55%;
+}
+.well_25 {
+ font-size: 16px;
+ padding: 10px 10px 10px 10px;
+}
+.well_26 {
+ font-size: 16px;
+ padding: 10px 13px 10px 13px;
+}
+.well_27 {
+ font-size: 16px;
+ padding: 10px 10px 10px 10px;
+}
+.our_5 h4 {
+ padding-bottom: 5px;
+ font-size: 19px;
+}
+.our_5 h6 {
+ padding-bottom: 0px;
+ letter-spacing: 1px;
+ font-size: 13px;
+}
+.our_5 p {
+ font-size: 15px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

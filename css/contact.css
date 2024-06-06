@@ -1,0 +1,229 @@
+/*
+Template Name:Tennis Ball
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* contact_main ****************/
+#contact_main{ 
+ background-image: url(../img/56.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.contact_main_1{ 
+ background-color: #96bd479e;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ float: right;
+ }
+.contact_main_1 h2{ 
+ color:#fff;
+ }
+.contact_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.contact_main_1 i{ 
+ color:#fff;
+ }
+.contact_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* contact_main_end ****************/
+/********************* contact ****************/
+#contact{ 
+ padding-top:40px;
+ padding-bottom:0px;
+ }
+.contact_1{ 
+ text-align:center;
+ }
+.contact_1 h2{ 
+ color: #474d4b;
+ font-weight:bold;
+ }
+.contact_1 p{ 
+ padding-bottom:20px;
+ }
+.contact_3{ 
+ background: #44228f;
+ padding:30px;
+ text-align:center;
+ border: 8px solid #e2e2e2;
+ margin-bottom:20px;
+ }
+.contact_3 li{ 
+ color:#fff;
+ font-size:25px;
+ }
+.contact_3 i{ 
+ padding-right:10px;
+ }
+.contact_4{ 
+ background: #96bd42;
+ padding: 30px;
+ text-align: center;
+ border: 8px solid #77a219;
+ margin-bottom: 20px;
+ }
+.contact_4 li{ 
+ color:#fff;
+ font-size:25px;
+ }
+.contact_4 i{ 
+ padding-right:10px;
+ }
+.contact_4 a{ 
+ color:#fff;
+ }
+.contact_5{ 
+ background: #5a3209;
+ padding:30px;
+ text-align:center;
+ border: 8px solid #e2e2e2;
+ margin-bottom:20px;
+ }
+.contact_5 li{ 
+ color:#fff;
+ font-size:25px;
+ }
+.contact_5 i{ 
+ padding-right:10px;
+ }
+.contact_5 a{ 
+ color:#fff;
+ }
+.contact_6 h3{ 
+ font-weight:bold;
+ padding-bottom:10px;
+ }
+/********************* contact_end ****************/
+/********************* exercise ****************/
+#exercise{ 
+ padding-top:20px;
+ padding-bottom:50px;
+ }
+.exercise_3 h2 {
+ font-size: 30px;
+ font-weight: bold;
+ color: #000;
+}
+.exercise_4 input {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 10px;
+ width: 98%;
+ border-bottom:1px solid #999!important;
+}
+.exercise_5 textarea {
+    height: 155px;
+    width: 100%;
+	border-bottom:1px solid #999!important;
+}
+#exercise .form-control{ 
+ border:none;
+ -webkit-box-shadow:none;
+ box-shadow:none;
+ -webkit-transition:none;
+ transition:none;
+ font-size:18px;
+ }
+.exercise_6 p{
+ padding-top:30px;
+}
+/********************* exercise_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#contact_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.contact_main_1 {
+ padding: 10px;
+ width: 100%;
+}
+#contact {
+ padding-top: 30px;
+ text-align: center;
+}
+#exercise {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-align: center;
+}
+.exercise_3 h2 {
+ padding-top: 20px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+#contact_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.contact_main_1 {
+ width: 55%;
+}
+.contact_4 li {
+ font-size: 22px;
+}
+.contact_3 li {
+ font-size: 22px;
+}
+.contact_5 a {
+ font-size: 23px;
+}
+.contact_5 li {
+ font-size: 22px;
+}
+.contact_6 h3 {
+ font-size: 20px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+#contact_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.contact_main_1 {
+ width: 55%;
+}
+.contact_4 li {
+ font-size: 22px;
+}
+.contact_3 li {
+ font-size: 22px;
+}
+.contact_5 a {
+ font-size: 23px;
+}
+.contact_5 li {
+ font-size: 22px;
+}
+.contact_6 h3 {
+ font-size: 20px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

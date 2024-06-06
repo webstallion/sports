@@ -1,0 +1,321 @@
+/*
+Template Name:Tennis Ball
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* details_main ****************/
+#details_main{ 
+ background-image: url(../img/50.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.details_main_1{ 
+ background-color: #96bd479e;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ float: right;
+ }
+.details_main_1 h2{ 
+ color:#fff;
+ }
+.details_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.details_main_1 i{ 
+ color:#fff;
+ }
+.details_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* details_main_end ****************/
+/********************* details ****************/
+#details{ 
+ padding-top: 30px;
+ padding-bottom: 30px;
+ }
+.details_2 li{ 
+display:inline;
+color:#9F9F9F;
+font-size: 20px;
+ }
+.details_2 li a{ 
+font-size:16px;
+color:#000;
+ }
+.details_2 li a:hover{ 
+color:#15a0a7;
+ }
+.details_3{ 
+border-bottom:1px solid #E5E5E5;
+padding-bottom:27px;
+ }
+.details_4 h4{ 
+padding-top:35px;
+letter-spacing:1px;
+font-weight:bold;
+padding-bottom:20px;
+ }
+.details_5{ 
+padding-left:20px;
+ }
+.details_5 h4{ 
+font-size:13px;
+font-weight:bold;
+padding-bottom:5px;
+ }
+.details_5 p i{ 
+padding-right:10px;
+ }
+.details_5 p{ 
+color: #B5B5B5;
+padding-bottom:5px;
+ }
+.details_5 h5{ 
+color: #666;
+ }
+.details_5 h6 i{ 
+padding-right:7px;
+ }
+.details_5 h6 a{ 
+color:#333;
+font-weight:bold;
+ }
+.details_5 h6 a:hover{ 
+color:#C96;
+ }
+.details_6 h5 {
+font-size: 20px;
+padding:0px;
+margin:0px;
+padding-top: 40px;
+}
+label {
+font-size: 17px;
+padding-top: 10px;
+color: #141f3c;
+}
+.details_7 textarea {
+width:100%;
+padding-bottom:150px;
+border-radius: 0;
+margin-bottom: 20px;
+}
+.details_8 input {
+border: 1px solid #CCCCCC;
+width:50%;
+padding-top: 20px;
+padding-bottom:20px;
+margin-bottom:10px;
+}
+.details_9 p {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+    /* Removes the default 20px margin and creates some padding space for the indicators and controls */
+#details .carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+right: -62px;
+top: 20%;
+background: none;
+color: #000;
+font-size: 50px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+right: 50%;
+top: auto;
+bottom: 0px;
+margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+.carousel-control.left {
+left: -60px;
+top:20%;
+background: none;
+color: #000;
+font-size: 50px;
+}
+.details_10{ 
+padding-top:60px;
+ }
+.details_10 h2{ 
+padding-bottom:20px;
+font-weight:bold;
+ }
+.details_11 h3 a{ 
+color:#000;
+letter-spacing:3px;
+ }
+.details_11 h3 a:hover{ 
+color:#141f3c;
+ }
+.details_11 h4{ 
+font-size:16px;
+padding-top:10px;
+padding-bottom:10px;
+ }
+.details_11 h4 a{ 
+font-size:15px;
+color:#999;
+ }
+.details_11 h5{ 
+padding-top:20px;
+ }
+#details .carousel-inner {
+padding-bottom: 40px;
+}
+#details .well {
+background:none;
+border:none;
+-webkit-box-shadow:none;
+}
+.details_12 p{ 
+ padding-top:20px;
+}
+.details_13 img{ 
+ padding-top:50px;
+}
+.details_15 img{ 
+ margin-top:8px;
+}
+.details_2 li {
+display: inline;
+color: #9F9F9F;
+}
+.details_2 li a {
+ font-size: 16px;
+ color: #000;
+}
+.blog_9 ul {
+ padding-top: 25px;
+}
+.well_22 a {
+letter-spacing: 2px;
+color: #000;
+font-size: 23px;
+font-weight: bold;
+}
+.blog_10 ul {
+padding-top: 15px;
+padding-bottom: 20px;
+}
+.blog_10 li {
+display: inline;
+margin: 10px;
+}
+.well_24 {
+color: #B5B5B5;
+}
+.blog_10 li i {
+ padding-right: 10px;
+ font-size:17px;
+}
+.blog_10 p {
+letter-spacing: 1px;
+line-height: 23px;
+}
+.well_25 a {
+    color: #000;
+}
+.well_26 a {
+    color: #000;
+}
+/********************* details_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#details_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.details_main_1 {
+ padding: 10px;
+ width: 100%;
+}
+#details {
+ text-align: center;
+}
+.details_6 h5 {
+ padding-top: 0px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+#details_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.details_main_1 {
+ width: 55%;;
+}
+.details_14 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:7px;
+}
+.details_4 img{ 
+ width:100%;
+}
+.details_5 p {
+ padding: 0px;
+ margin: 0px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+#details_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.details_main_1 {
+ width: 55%;;
+}
+.details_14 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:7px;
+}
+.details_4 img{ 
+ width:100%;
+}
+.details_5 p {
+ padding: 0px;
+ margin: 0px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

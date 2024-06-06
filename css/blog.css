@@ -1,0 +1,361 @@
+/*
+Template Name:Tennis Ball
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* blog_main ****************/
+#blog_main{ 
+ background-image: url(../img/43.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:180px;
+ padding-bottom:180px;
+ }
+.blog_main_1{ 
+ background-color: #96bd479e;
+ padding: 20px;
+ width: 25%;
+ text-align: center;
+ float: right;
+ }
+.blog_main_1 h2{ 
+ color:#fff;
+ }
+.blog_main_1 li{ 
+ display:inline;
+ font-size:20px;
+ color:#fff;
+ }
+.blog_main_1 i{ 
+ color:#fff;
+ }
+.blog_main_1 li a{ 
+ font-size:20px;
+ color:#fff;
+ }
+/********************* blog_main_end ****************/
+/********************* blog ****************/
+#blog{ 
+ padding-top: 40px;
+ padding-bottom: 30px;
+ }
+.blog_2 h3{ 
+ padding-bottom:8px;
+ }
+.blog_2 h3 a{ 
+ font-size:17px;
+ color:#000;
+ line-height:26px;
+ }
+.blog_2 p{ 
+ color:#999;
+ padding-top:8px;
+ }
+.blog_2 ul{ 
+ border-top: 1px solid #e2dede;
+ border-bottom: 1px solid #e2dede;
+ padding: 7px;
+ }
+.blog_2 li{ 
+ display: inline-block;
+ margin-right: 10px;
+ font-size: 15px;
+ margin-left: 10px;
+ }
+.blog_2 i{ 
+ padding-right:13px;
+ color: #6a9a01;
+ font-size: 18px;
+ }
+.blog_3 p{ 
+ padding:0px;
+ margin:0px;
+ padding-top: 6px;
+ padding-bottom: 10px;
+ }
+.blog_3 p a{ 
+ font-size:19px;
+ color: #09f;
+ font-weight:bold;
+ }
+.blog_3 p a:hover{ 
+ color: #000;
+ }
+.blog_4{ 
+ box-shadow: 0 10px 6px -6px #777!important;
+ padding-left:15px;
+ margin-bottom:20px;
+ }
+.blog_5{ 
+ text-align:center;
+ }
+.blog_5 p{ 
+ padding-top:20px;
+ }
+#blog ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+	float:right;
+	padding-top:3px;
+}
+#blog ul.social-network li {
+	display: inline;
+	margin: 0 1px;
+}
+/* footer social icons */
+#blog .social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+#blog .social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+#blog .social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+#blog .social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+#blog .social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+#blog .social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+#blog .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+#blog .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+#blog a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+#blog .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+	background-color:#464545;
+}
+#blog .social-circle li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+#blog .social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#blog .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+#blog .big-btn{
+padding: 10px 0px 11px 0px;
+width: 215px;
+margin-top:5px;
+}
+
+#blog .big-btn i{
+font-size: 65px;
+margin-right: 0px !important;
+}
+#blog .big-btn strong{
+font-size: 25px;
+text-shadow: 1px 2px 0px #34659B;
+color: #fff;
+line-height: 24px;
+}
+#blog .big-btn .btn-text{
+margin-top:6px;
+}
+
+#blog .big-btn small{font-size: 75%;}
+
+#blog .android-btn{
+
+width: 240px;
+padding: 5px 5px 5px 5px;
+background-color: #000;
+border-color: #000;
+
+}
+#blog .android-btn:hover{
+background-color: #272727;
+}
+
+#blog .android-btn i{
+font-size: 55px;
+}
+
+#blog .android-btn .btn-text{
+margin-top: 0px;
+}
+
+#blog .android-btn strong{
+font-size: 25px;
+text-shadow: none;
+color: #fff;
+line-height: 24px;
+}
+
+#blog .windows-btn{
+background-color:#008A00;
+width: 235px;
+padding: 5px 5px 5px 5px;
+border-color: #055805;
+}
+
+#blog .windows-btn:hover{
+background-color: #008A00;
+}
+#blog .windows-btn .btn-text{
+text-shadow: none;
+font-size: 26px;
+line-height: 25px;
+}
+/********************* blog_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+#blog_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.blog_main_1 {
+ padding: 10px;
+ width: 100%;
+ float: none;
+}
+#blog {
+ padding-top: 30px;
+ padding-bottom: 30px;
+ text-align: center;
+}
+.blog_2 ul {
+ padding: 2px;
+}
+.blog_2 li {
+ margin-right: 0px;
+ margin-left: 0px;
+}
+#blog ul.social-network {
+ float: none;
+}
+.blog_4 {
+ padding-left: 0px;
+ padding-bottom: 10px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+ 
+@media (min-width:768px) and (max-width:961px) {
+#blog_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.blog_main_1 {
+ width: 55%;
+}
+.blog_2 li {
+ margin-right:0px;
+ font-size: 14px;
+ margin-left:0px;
+}
+.blog_2 i {
+ padding-right: 5px;
+ font-size: 14px;
+}
+.blog_3 p a {
+ font-size: 15px;
+}
+#blog .social-circle li a {
+ width: 17px;
+ height: 17px;
+ font-size: 10px;
+}
+#blog .social-circle li i {
+ line-height: 16px;
+}
+#blog ul.social-network {
+ padding-top: 10px;
+}
+.blog_2 p {
+ padding: 0px;
+ margin: 0px;
+ padding-top: 8px;
+}
+} 
+
+ 
+@media (min-width:962px) and (max-width:1200px) {
+#blog_main {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+.blog_main_1 {
+ width: 55%;
+}
+.blog_2 li {
+ margin-right:0px;
+ font-size: 14px;
+ margin-left:0px;
+}
+.blog_2 i {
+ padding-right: 5px;
+ font-size: 14px;
+}
+.blog_3 p a {
+ font-size: 15px;
+}
+#blog .social-circle li a {
+ width: 17px;
+ height: 17px;
+ font-size: 10px;
+}
+#blog .social-circle li i {
+ line-height: 16px;
+}
+#blog ul.social-network {
+ padding-top: 10px;
+}
+.blog_2 p {
+ padding: 0px;
+ margin: 0px;
+ padding-top: 8px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

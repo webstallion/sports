@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tennis Ball</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+   <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+<body>
+<section id="header_main" class="clearfix">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12 space_all">
+    <div class="col-sm-4 space_all">
+     <div class="header_main_1">
+       <ul>
+	        <li><i class="fa fa-phone"></i><a href="#">+123 456 78 90</a></li>
+			<li><i class="fa fa-envelope"></i><a href="#">info@gmail.com</a></li>
+	   </ul>
+     </div>
+    </div>
+    <div class="col-sm-3 space_all">
+     <div class="header_main_2">
+      <div id="custom-search-input">
+        <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+       </div>
+     </div>
+    </div>
+	<div class="col-sm-3">
+	 <div class="header_main_4">
+	  <ul class="nav navbar-nav navbar nav_2">			
+	  <div class="login">
+				<ul class="nav-login">
+					<li class="tell_main_8"><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
+					<li class="tell_main_9"><a href="#" data-toggle="modal" data-target="#myModal2">Signup</a></li>
+				</ul>
+			</div>
+	  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">
+							
+									<div class="login-right">
+										<form action="#" method="post">
+											<h3>Signin with your account </h3>
+											<input type="text" value="Enter your mobile number or Email" name=" Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your mobile number or Email';}" required="">	
+											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
+											<div class="single-bottom">
+												<input type="checkbox" id="brand" value="">
+												<label for="brand"><span></span>Remember Me.</label>
+											</div>
+											<input type="submit" value="SIGNIN">
+										</form>
+									</div>
+									
+								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //login -->
+			<!-- signup -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+							<div class="login-grids">							
+									<div class="login-right">
+										<form action="#" method="post">
+											<h3>Create your account </h3>
+											<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+											<input type="text" value="Mobile number" name="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+											<input type="text" value="Email id" name="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
+											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">												
+											<input type="submit" value="CREATE ACCOUNT">
+										</form>
+									</div>								
+								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </ul>
+	 </div>
+	</div>
+    <div class="col-sm-2 space_all">
+     <div class="header_main_3">
+      <ul>
+           <li><a href="#"><i class="fa fa-facbook"></i></a></li>
+		   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		   <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+		   <li><a href="#"><i class="fa fa-google"></i></a></li>
+		   <li><a href="#"><i class="fa fa-dribbble"></i></a></li>		   
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="header" class="cd-secondary-nav">
+ <div class="container">
+  <div class="row">
+   <nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dropdown-thumbnail-preview">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="index.html"><span class="well_1"><i class="fa fa-dribbble"></i></span>TENNIS <span class="well_2">BALL</span></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html" class="hvr-underline-from-center">HOME</a></li>
+		<li><a href="about.html" class="hvr-underline-from-center">ABOUT</a></li>
+		<li><a href="team.html" class="hvr-underline-from-center">TEAM</a></li>
+		<li class="dropdown">
+		<a href="team.html" class="hvr-wobble-to-top-right" data-toggle="dropdown">BLOG <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			 <li class="tell_1"><a href="blog.html">BLOG LISTING</a></li>
+			 <li class="tell_1"><a href="details.html">BLOG DETAILS</a></li>		 
+		  </ul>
+		</li>
+		<li><a href="contact.html" class="hvr-underline-from-center">CONTACT</a></li>
+        <li class="dropdown">
+		<a href="#" class="hvr-wobble-to-top-right" data-toggle="dropdown">DROPDOWN <b class="caret"></b></a>
+		  <ul class="dropdown-menu">
+			 <li class="tell_1"><a href="blog.html">BLOG</a></li>
+			 <li class="tell_1"><a href="about.html">ABOUT</a></li>
+		     <li><a href="team.html">TEAM</a></li>			 
+		  </ul>
+		</li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+  </div>
+ </div>
+</section>
+<section id="center">
+  <div class="center">
+   <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <div class="overlay"></div>
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class=""></li>
+    <li data-target="#bs-carousel" data-slide-to="1" class=""></li>
+    <li data-target="#bs-carousel" data-slide-to="2" class="active"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item slides">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>Sed Dignissim Lacinia</h1> 
+			 <h3>Vestibulum Lacinia Arcu Eget</h3>   
+			 <h4><a href="#">CONUDIA NOSTRA</a></h4>    
+        </hgroup>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Torquent Per Conubia Nostra</h1> 
+			 <h3>Vestibulum Lacinia Arcu Eget</h3>   
+			 <h4><a href="#">CONUDIA NOSTRA</a></h4>    
+        </hgroup>
+      </div>
+    </div>
+    <div class="item slides active">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Fusce Nec Tellus Sed Augue</h1> 
+			 <h3>Vestibulum Lacinia Arcu Eget</h3>   
+			 <h4><a href="#">CONUDIA NOSTRA</a></h4>    
+        </hgroup>
+      </div>
+    </div>
+  </div> 
+  </div>
+  </div>
+ </section>
+<section id="middle">
+ <div class="container">
+  <div class="row">
+   <div class="middle_1 clearfix">
+    <div class="col-sm-8">
+	 <div class="middle_2">
+	  <a href="#"><img src="img/4.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	 <div class="middle_3">
+	  <h2>Welcome</h2>
+	  <h5>TO OUR TENNIS CLUB</h5>
+	  <p>Founded in 1964 by a team of professional tennis players
+		our club is based on one of the most picturesque areas of
+		the country and is ideal for family membership.</p>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="excited">
+ <div class="container">
+  <div class="row">
+   <div class="excited_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="excited_main clearfix">
+	  <div class="excited_2">
+	  <h2>Next Matches</h2>
+	  <hr class="hr_1">
+	  <p>MOST TENNIS MATCHES ARE PLAYED ON SUNDAYS FROM 10 AM TO APPROXIMATELY 2 PM</p>
+	 </div>
+	 <div class="excited_3 clearfix">
+	  <div class="col-sm-3 space_all">
+	   <div class="excited_4">
+	    <h4>28</h4>
+		<p>Apr</p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all"> 
+	   <div class="excited_5">
+	    <p><a href="#">Astana Challenger (hard) 11:00,Mary Wilson - Helen Price</a></p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="excited_3 clearfix">
+	  <div class="col-sm-3 space_all">
+	   <div class="excited_4">
+	    <h4>31</h4>
+		<p>May</p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all"> 
+	   <div class="excited_5">
+	    <p><a href="#">Astana Challenger (hard) 11:00,Mary Wilson - Helen Price</a></p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="excited_3 clearfix">
+	  <div class="col-sm-3 space_all">
+	   <div class="excited_4">
+	    <h4>14</h4>
+		<p>Jun</p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all"> 
+	   <div class="excited_5">
+	    <p><a href="#">Astana Challenger (hard) 11:00,Mary Wilson - Helen Price</a></p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="excited_3 clearfix">
+	  <div class="col-sm-3 space_all">
+	   <div class="excited_4">
+	    <h4>11</h4>
+		<p>Jul</p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all"> 
+	   <div class="excited_5">
+	    <p><a href="#">Astana Challenger (hard) 11:00,Mary Wilson - Helen Price</a></p>
+	   </div>
+	  </div>
+	 </div>
+	 </div>	 
+	</div>
+	<div class="col-sm-8"> 
+	 <div class="excited_6">
+	  <h2>Last Match Review</h2>
+	  <hr class="hr_2">
+	  <p>WE ARE VERY EXCITED TO GO OVER THIS EXCEPTIONAL TOURNAMENT THAT LITERALLY LEFT THE PLAYERS AND THE CROWD BREATHLESS!</p>
+	 </div>
+	 <div class="excited_7 clearfix">
+	  <div class="col-sm-5">
+	   <div class="excited_8">
+	    <a href="#"><img src="img/5.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	   <div class="excited_10">
+	    <p><a href="#">Mary Wilson</a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-2">
+	   <div class="excited_9">
+	    <h6>28 Apr 11:00</h6>
+		<h2>6-3</h2>
+		<h6>SINGLES</h6>
+	   </div>
+	  </div>
+	  <div class="col-sm-5">
+	   <div class="excited_8">
+	    <a href="#"><img src="img/6.jpg" alt="abc" class="img_responsive"></a>
+	   </div>
+	   <div class="excited_10">
+	    <p><a href="#">Mary Wilson</a></p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="latest">
+ <div class="container">
+  <div class="row">
+   <div class="latest_1">
+    <h2>The Latest Photo</h2>
+	<h6>AMAZING PHOTO REPORTAGE</h6>
+	<p>OUR CLUB IS PROUD OF ITS SUCCESSFUL MEMBERS<br/>
+       AND WANTS TO SHARE THE BEST MOMENTS OF THE TOURNAMENT</p>
+   </div>
+   <div class="latest_2 clearfix">
+    <div class="col-sm-3">
+	 <div class="latest_3">
+	  <a href="#"><img src="img/7.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="latest_4">
+	  <p>Improve Your Strokes Using The Wall</p>
+	  <h6>February 6, 2016</h6>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="latest_3">
+	  <a href="#"><img src="img/8.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="latest_4">
+	  <p>Improve Your Strokes Using The Wall</p>
+	  <h6>February 6, 2016</h6>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="latest_3">
+	  <a href="#"><img src="img/9.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="latest_4">
+	  <p>Improve Your Strokes Using The Wall</p>
+	  <h6>February 6, 2016</h6>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="latest_3">
+	  <a href="#"><img src="img/10.jpg" alt="abc" class="img_responsive"></a>
+	 </div>
+	 <div class="latest_4">
+	  <p>Improve Your Strokes Using The Wall</p>
+	  <h6>February 6, 2016</h6>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="review">
+ <div class="container">
+  <div class="row">
+   <div class="review_1 clearfix">
+    <div class="col-sm-6">
+	 <div class="review_2">
+	  <h2>Court Review</h2>
+	  <h6>UNIQUE CONSTRUCTION</h6>
+	  <p>EXTENSIVE UPGRADES AND THOROUGH MAINTENANCE HAVE MADE OUR COURTS A MODERN COMFORTABLE PLACE FOR TRAININGS</p>
+	    <ul>
+	      <li><i class="fa fa-circle-o"></i>No daily water usage</li>
+		  <li><i class="fa fa-circle-o"></i>Not affected by freezing weather</li>
+		  <li><i class="fa fa-circle-o"></i>3 Distinct tennis court surface speed-of-play options</li>
+		  <li><i class="fa fa-circle-o"></i>Adjustable court speeds that are great for serves</li>
+		</ul>
+	   <a href="#" class="button">Learn More</a>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="review_3">
+	  <a href="#"><img src="img/11.png" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="tips">
+ <div class="container">
+  <div class="row">
+   <div class="tips_1 clearfix">
+    <div class="col-sm-4">
+	 <div class="tips_2">
+	  <h2>Video Tennis Tips</h2>
+	  <hr class="hr_1">
+	  <a href="#"><img src="img/12.jpg" alt="abc" class="img_responsive"></a>
+	  <p>Tennis Serve Lesson For Beginners</p>
+	 </div>
+	</div>
+	<div class="col-sm-8">
+	 <div class="tips_3 clearfix">
+	  <h2>Coaching & Tips</h2>
+	  <hr class="hr_2">
+	  <div class="col-sm-4">	   
+	   <div class="tips_4">
+	    <a href="#"><img src="img/13.jpg" alt="abc" class="img_responsive"></a>
+		<h4><a href="#">Improve Your Strokes Using The</a></h4>
+		<h6>TIPS</h6>
+	   </div>
+	  </div>
+	  <div class="col-sm-4">	   
+	   <div class="tips_4">
+	    <a href="#"><img src="img/14.jpg" alt="abc" class="img_responsive"></a>
+		<h4><a href="#">The Bad Guy Who Has Done Nothing</a></h4>
+		<h6>GAMES</h6>
+	   </div>
+	  </div>
+	  <div class="col-sm-4">	   
+	   <div class="tips_4">
+	    <a href="#"><img src="img/15.jpg" alt="abc" class="img_responsive"></a>
+		<h4><a href="#">From Dreads to Fed: Wimbledon A-Z</a></h4>
+		<h6>TOURNAMENTS</h6>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="quality">
+ <div class="container">
+  <div class="row">
+   <div class="quality_1">
+    <div class="col-sm-6">
+	 <div class="quality_2">
+	  <h1>save 30%</h1>
+	  <p>We offer exclusive deals for various sport products of premium quality that has been tested and proved by years and experienced players</p>
+	  <a href="#" class="button">Learn more</a>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="quality_3">
+	  <a href="#"><img src="img/16.png" alt="abc" class="img_responsive"></a>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="products">
+ <div class="container">
+  <div class="row">
+   <div class="products_1">
+    <h2>Featured Products</h2>
+	<h6>NEW COLLECTION</h6>
+   </div>
+   <div class="products_2 clearfix"> 
+    <div class="col-sm-3">
+	 <div class="products_3">
+	  <a href="#"><img src="img/17.jpg" alt="abc" class="img_responsive"></a>
+	  <p>Men’s Climacool Leap Running Tennis Shoe</p>
+	    <ul>
+		     <li class="well_23">$ 240.00</li>
+			 <li class="well_24">$ 160.00</li>
+		</ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="products_3">
+	  <a href="#"><img src="img/18.jpg" alt="abc" class="img_responsive"></a>
+	  <p>Penn Championship Extra Tennis Duty Balls</p>
+	    <ul>
+		     <li class="well_23">$ 100.00</li>
+			 <li class="well_24">$ 80.00</li>
+		</ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="products_3">
+	  <a href="#"><img src="img/19.jpg" alt="abc" class="img_responsive"></a>
+	  <p>Tourna Pete Sampras Ballport, Holds 80 Balls</p>
+	    <ul>
+		     <li class="well_23">$ 50.00</li>
+			 <li class="well_24">$ 30.00</li>
+		</ul>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="products_3">
+	  <a href="#"><img src="img/20.jpg" alt="abc" class="img_responsive"></a>
+	  <p>Wilson US Open Junior Tennis Racquet</p>
+	    <ul>
+		     <li class="well_23">$ 300.00</li>
+			 <li class="well_24">$ 200.00</li>
+		</ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="our">
+ <div class="container">
+  <div class="row">
+   <div class="our_1">
+    <h2>Our Club Coaches</h2>
+	<hr class="hr_3">
+	<p>TENNIS CLUB IS HONORED TO WORK WITH THE COUNTRY’S LEAGUE BEST<br/> TENNIS PLAYERS THAT NOW CAN BECOME YOUR PERSONAL COACH AND HELP YOU WIN</p>
+   </div>
+   <div class="our_2 clearfix">
+    <div class="col-sm-6">
+	 <div class="our_3 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="our_4">
+	    <a href="#"><img src="img/21.jpg" alt="abc" class="img_responsive"></a>
+		<ul>
+		     <li class="well_25"><i class="fa fa-twitter"></i></li>
+			 <li class="well_26"><i class="fa fa-facebook"></i></li>
+			 <li class="well_27"><i class="fa fa-instagram"></i></li>
+		</ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-8 space_all">
+	   <div class="our_5">
+	    <h4><a href="#">Amy Scott</a></h4>
+		<h6>PROFESSIONAL TRAINER</h6>
+		<p>Ut enim ad minim veniam, quis nostrud exer tation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="our_3 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="our_4">
+	    <a href="#"><img src="img/22.jpg" alt="abc" class="img_responsive"></a>
+		<ul>
+		     <li class="well_25"><i class="fa fa-twitter"></i></li>
+			 <li class="well_26"><i class="fa fa-facebook"></i></li>
+			 <li class="well_27"><i class="fa fa-instagram"></i></li>
+		</ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-8 space_all">
+	   <div class="our_5">
+	    <h4><a href="#">Amy Scott</a></h4>
+		<h6>PROFESSIONAL TRAINER</h6>
+		<p>Ut enim ad minim veniam, quis nostrud exer tation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="our_3 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="our_4">
+	    <a href="#"><img src="img/23.jpg" alt="abc" class="img_responsive"></a>
+		<ul>
+		     <li class="well_25"><i class="fa fa-twitter"></i></li>
+			 <li class="well_26"><i class="fa fa-facebook"></i></li>
+			 <li class="well_27"><i class="fa fa-instagram"></i></li>
+		</ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-8 space_all">
+	   <div class="our_5">
+	    <h4><a href="#">Amy Scott</a></h4>
+		<h6>PROFESSIONAL TRAINER</h6>
+		<p>Ut enim ad minim veniam, quis nostrud exer tation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="our_3 clearfix">
+	  <div class="col-sm-4 space_all">
+	   <div class="our_4">
+	    <a href="#"><img src="img/24.jpg" alt="abc" class="img_responsive"></a>
+		<ul>
+		     <li class="well_25"><i class="fa fa-twitter"></i></li>
+			 <li class="well_26"><i class="fa fa-facebook"></i></li>
+			 <li class="well_27"><i class="fa fa-instagram"></i></li>
+		</ul>
+	   </div>
+	  </div>
+	  <div class="col-sm-8 space_all">
+	   <div class="our_5">
+	    <h4><a href="#">Amy Scott</a></h4>
+		<h6>PROFESSIONAL TRAINER</h6>
+		<p>Ut enim ad minim veniam, quis nostrud exer tation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+	   </div>
+	  </div>
+	 </div>
+	</div>
+   </div>
+   <div class="our_6">
+	 <p><a href="#" class="button">Learn More</a> </p> 
+	</div>
+  </div>
+ </div>
+</section>
+<section id="Testimonials">
+		 <div class="Testimonials_inner clearfix">
+		  <div class="container">
+		  <div class="row">
+		   <div class="col-sm_12">
+			 <div class="Testimonials_1">
+				  <h1 class="text-center">Testimonials</h1>
+				  <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitursodales ligula in libero. Sed dignissim lacinia nunc. </p>
+			 </div>
+			 <div class="Testimonials_main clearfix">
+			  <div class="col-sm-6">
+			  <div class="Testimonials_2">
+			 <img src="img/25.jpg">
+			</div>
+			<div class="Testimonials_3">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+			</div>
+			 </div>	
+            <div class="col-sm-6">
+			  <div class="Testimonials_2">
+			 <img src="img/26.jpg">
+			</div>
+			<div class="Testimonials_3">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+			</div>
+			 </div>	
+			 </div>
+             <div class="Testimonials_main clearfix">
+			  <div class="col-sm-6">
+			  <div class="Testimonials_2">
+			 <img src="img/27.jpg">
+			</div>
+			<div class="Testimonials_3">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+			</div>
+			 </div>	
+            <div class="col-sm-6">
+			  <div class="Testimonials_2">
+			 <img src="img/28.jpg">
+			</div>
+			<div class="Testimonials_3">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+			</div>
+			 </div>	
+			 </div>				 
+		   </div>
+		  </div>
+		 </div>
+		 </div>		 
+</section>
+<section id="plan">
+		 <div class="container">
+		  <div class="row">
+		   <div class="col-sm-12">
+			 <div class="plan_1">
+			   <h1 class="text-center">Plans</h1>
+			
+		
+						<!-- item -->
+						<div class="col-sm-4 text-center">
+							<div class="panel panel-danger panel-pricing">
+								<div class="panel-heading">
+									<i class="fa fa-desktop"></i>
+									<h3>Plan 1</h3>
+								</div>
+								<div class="panel-body text-center">
+									<p><strong>$100 / Month</strong></p>
+								</div>
+								<ul class="list-group text-center">
+									<li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+								</ul>
+								<div class="panel-footer">
+									<a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>								</div>
+							</div>
+						</div>
+						<!-- /item -->
+		
+						<!-- item -->
+						<div class="col-sm-4 text-center">
+							<div class="panel panel-warning panel-pricing">
+								<div class="panel-heading">
+									<i class="fa fa-desktop"></i>
+									<h3>Plan 2</h3>
+								</div>
+								<div class="panel-body text-center">
+									<p><strong>$200 / Month</strong></p>
+								</div>
+								<ul class="list-group text-center">
+									<li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+								</ul>
+								<div class="panel-footer">
+									<a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>								</div>
+							</div>
+						</div>
+						<!-- /item -->
+		
+						<!-- item -->
+						<div class="col-sm-4 text-center">
+							<div class="panel panel-success panel-pricing">
+								<div class="panel-heading">
+									<i class="fa fa-desktop"></i>
+									<h3>Plan 3</h3>
+								</div>
+								<div class="panel-body text-center">
+									<p><strong>$300 / Month</strong></p>
+								</div>
+								<ul class="list-group text-center">
+									<li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+									<li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+								</ul>
+								<div class="panel-footer">
+									<a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>								</div>
+							</div>
+						</div>
+						<!-- /item -->
+				</div>
+			 </div>
+		   </div>
+		  </div>
+		 </div>
+</section>
+<section id="exercise">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-6">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3635689.793072721!2d78.6421709625!3d27.141236999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1531201517392" width="100%" height="360" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+	</div>
+	<div class="col-sm-6">
+	 <div class="exercise_main clearfix">
+	  <div class="exercise_3">
+	  <h2>Sed Augue!</h2>
+	  <hr class="hr_1">
+	 </div>
+	 <div class="col-sm-12 space_all">
+	  <div class="col-sm-4 space_all">
+	   <div class="exercise_4">
+	    <input type="text" class="form-control" placeholder="Name">
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="exercise_4">
+	    <input type="text" class="form-control" placeholder="Email">
+	   </div>
+	  </div>
+	  <div class="col-sm-4 space_all">
+	   <div class="exercise_4">
+	    <input type="text" class="form-control" placeholder="Phone">
+	   </div>
+	  </div>
+	 </div>
+	 <div class="col-sm-12 space_all">
+	  <div class="exercise_5">
+	   <textarea placeholder="Message" class="form-control"></textarea>
+	  </div>
+	 </div>
+	 <div class="col-sm-12 space_all">
+	  <div class="exercise_6">
+	   <p><a href="#">SEND MESSAGE</a></p>
+	  </div>
+	 </div>
+	 </div>	 
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="col-sm-4">
+	 <div class="footer_1">
+	  <h3>CONUBIA</h3>
+	  <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+         torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero. Sed dignissim lacinia nunc.!</p>
+	 </div>
+	 <div class="footer_2">
+	  <input type="text" class="form-control" placeholder="Enter your E-mail address">
+	  <p><a href="#">SUBSCRIBE</a></p>
+	 </div>
+	</div>
+	<div class="col-sm-4">
+	  <div class="footer_3">
+	     <h3>CURSUS ANTE AUGUE</h3>
+	  </div>
+	 <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/31.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Vestibulum Lacinia Arcu Eget Nulla!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>
+     <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/32.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Fusce Nec Tellus Sed Augue Semper!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>
+    <div class="col-sm-12 space_all">	  
+	  <div class="col-sm-3 space_all">
+	   <div class="footer_4">
+	    <p><a href="#"><img src="img/33.jpg"></a></p>
+	   </div>
+	  </div>
+	  <div class="col-sm-9 space_all">
+	   <div class="footer_5">
+	    <h4><a href="#">Sed Augue Semper Porta. Mauris Massa!</a></h4>
+		<ul>
+		     <li class="well_15"><a href="#">May 18, 2019</a></li>
+			 <li>by</li>
+			 <li class="well_16"><a href="#">nostra</a></li>
+		</ul>
+	   </div>
+	  </div>
+	 </div>	 
+   </div>
+   <div class="col-sm-4">
+    <div class="footer_6">
+	 <h3>DIGNISSIM</h3>
+	</div>
+    <div class="col-sm-12 space_all">
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_7">
+	   <p><a href="#"><img src="img/34.jpg" width="90%"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/35.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/36.jpg"></a></p>
+	  </div>
+	 </div>
+	</div>
+	<div class="col-sm-12 space_all">
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/37.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/38.jpg"></a></p>
+	  </div>
+	 </div>
+	 <div class="col-sm-4 space_all">
+	  <div class="footer_9">
+	   <p><a href="#"><img src="img/39.jpg"></a></p>
+	  </div>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+<section id="footer_main" class="clearfix">
+ <div class="col-sm-12">
+  <div class="col-sm-8">
+   <div class="footer_main_1">
+    <p>© 2013 Your Website Name. All Rights Reserved. Design by<a href="http://www.TemplateOnWeb.com"> Template On Web</a> </p>
+   </div>
+  </div>
+  <div class="col-sm-4">
+   <div class="footer_main_2">
+       <ul class="social-network social-circle">
+			<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+			<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+       </ul>
+   </div>
+  </div>
+ </div>
+</section>
+<script>
+$(document).ready(function(){
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > secondaryNavTopPosition ) {
+				secondaryNav.addClass('is-fixed');	
+			} else {
+				secondaryNav.removeClass('is-fixed');
+			}
+		});	
+		
+});
+</script>
+</body>
+</html>
